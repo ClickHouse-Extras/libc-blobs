@@ -27,5 +27,5 @@ docker run --rm --privileged multiarch/qemu-user-static:register --reset
 And then run ClickHouse binary directly:
 
 ```
-clickhouse-aarch64 server
+./clickhouse-aarch64 server
 ```
