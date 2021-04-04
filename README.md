@@ -7,8 +7,7 @@ sudo apt install qemu-user-static
 
 2. Install the blobs from this repository:
 ```
-sudo cp -r lib/aarch64-linux-gnu /lib
-sudo cp lib/ld-linux-aarch64.so.1 /lib
+sudo cp -r aarch64/* /
 ```
 
 3. Download the AArch64 binary from "ClickHouse special build check".
